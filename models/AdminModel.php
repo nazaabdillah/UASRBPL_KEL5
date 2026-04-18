@@ -3,7 +3,7 @@
  * models/AdminModel.php
  * Query database untuk tabel admins
  */
-
+// Refactor: Migrasi dari MD5 ke Bcrypt untuk keamanan
 class AdminModel {
     private PDO $db;
 
